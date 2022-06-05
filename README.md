@@ -1,7 +1,2 @@
 # Dox Hud
-# dox hud
-# dox hud
-# dox hud
-# dox hud
-# dox hud
-# dox hud
+screenshots https://imgur.com/a/rl2XmYT
