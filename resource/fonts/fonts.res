@@ -112,11 +112,24 @@ Scheme
 "1"
 {
                                          "name"		"exo demi bold"
-                                         "tall"		"12"
+                                         "tall"		"8"
                                          "tall_lodef"	"80"
                                          "weight"	"500"
                                          "additive"	"0"
                                          "antialias" "1"
+}
+}
+
+"fontmenu"
+{
+"1"
+{
+                                "name"		"adler"
+                                "tall"		"16"
+                                "tall_lodef"	"80"
+                                "weight"	"500"
+                                "additive"	"0"
+                                "antialias" "1"
 }
 }
 }

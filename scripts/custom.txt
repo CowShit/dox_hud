@@ -16,7 +16,7 @@ RunEvent ScopeRemoval 0.0
 // Spy Disguise
 event HudSpyDisguiseChanged
 {
-Animate PlayerStatusClassImage Position "224 r140" Linear 0.01 0.0
+Animate PlayerStatusClassImage Position "224 r153" Linear 0.01 0.0
 }
 
 event HudSpyDisguiseHide
@@ -26,7 +26,7 @@ Animate PlayerStatusClassImage Position "999999 9" Linear 0.0 0.0
 
 event HudSpyDisguiseFadeIn
 {
-Animate PlayerStatusClassImage Position "224 r140" Linear 0.01 0.0
+Animate PlayerStatusClassImage Position "224 r153" Linear 0.01 0.0
 }
 
 event HudSpyDisguiseFadeOut
@@ -117,3 +117,31 @@ event HudLowAmmoPulseStop
 }
 
 //===========================================
+//====================================
+
+// Flash the medic charge hud when we have full charge
+
+event HudMedicCharged
+{
+	
+	Animate	ChargeMeter 	FgColor		"25 244 255 255"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"0 242 25 255"		Linear 0.3 0.4
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	
+	Animate	ChargeMeter 	FgColor		"240 24 255 255"		Linear 0.0 0.0001
+}
+
+//====================================

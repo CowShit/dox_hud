@@ -7,9 +7,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"2"	[$WIN32]
-		"ypos"			"230"
+		"ypos"			"275"
 		"ypos_hidef"		"245"
-		"wide"	 		"280"
+		"wide"	 		"244"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"
 "bgcolor_override" "0 0 0 255"
@@ -24,7 +24,7 @@
 		"xpos"			"10"	[$WIN32]
 		"xpos"			"42"	[$X360]
 		"ypos"			"395"
-		"wide"	 		"260"
+		"wide"	 		"224"
 		"tall"	 		"2"
 		"PaintBackgroundType"	"0"
 	}
@@ -57,7 +57,7 @@
 		"ypos"			"17"	[$WIN32]
 		"xpos"			"10"	[$X360]
 		"ypos"			"10"	[$X360]
-		"wide"	 		"260"
+		"wide"	 		"226"
 		"tall"			"75"
 		"wrap"			"1"
 		"autoResize"		"1"
